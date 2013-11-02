@@ -1,0 +1,2 @@
+# Ignore real node files... they might have passwords
+*.json

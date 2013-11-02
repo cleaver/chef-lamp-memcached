@@ -1,0 +1,17 @@
+{
+  "_comment": "** Copy this file to 'node-name.json' and give it a set of nice strong passwords **",
+  "apache": {
+    "default_site_enabled": true
+  },
+  "mysql": {
+    "server_root_password": "replace-with-something-good",
+    "server_repl_password": "replace-with-something-good",
+    "server_debian_password": "replace-with-something-good"
+  },
+  "run_list": [
+    "recipe[apache2]",
+    "recipe[mysql]",
+    "recipe[php]",
+    "recipe[memcached]"
+  ]
+}
