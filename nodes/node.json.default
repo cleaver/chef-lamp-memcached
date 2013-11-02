@@ -13,6 +13,7 @@
     "recipe[mysql]",
     "recipe[mysql::server]",
     "recipe[php]",
-    "recipe[memcached]"
+    "recipe[memcached]",
+    "recipe[drush]"
   ]
 }
