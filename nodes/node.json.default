@@ -11,6 +11,7 @@
   "run_list": [
     "recipe[apache2]",
     "recipe[apache2::mod_php5]",
+    "recipe[apache2::mod_rewrite]",
     "recipe[mysql]",
     "recipe[mysql::server]",
     "recipe[php]",
