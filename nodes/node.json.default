@@ -9,6 +9,7 @@
     "server_debian_password": "replace-with-something-good"
   },
   "run_list": [
+    "recipe[git]",
     "recipe[apache2]",
     "recipe[apache2::mod_php5]",
     "recipe[apache2::mod_rewrite]",
@@ -20,6 +21,6 @@
     "recipe[php::module_mysql]",
     "recipe[php::module_memcache]",
     "recipe[memcached]",
-    "recipe[drush]"
+    "recipe[drush::git]"
   ]
 }
